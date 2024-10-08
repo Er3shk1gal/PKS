@@ -1,0 +1,31 @@
+name: pr3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^5.0.1
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  sqflite_common_ffi: ^2.0.0
+  flutter_animate: ^3.0.0
+  flutter_colorpicker: ^1.0.3
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/profile.png
