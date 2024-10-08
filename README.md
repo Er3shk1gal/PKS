@@ -12,10 +12,10 @@ ___
 # Структура репозитория
 | Номер<br>Практики | Ссылка на ветку |
 |:---:|---|
-| 1 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_1) |
-| 2 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_2) |
-| 3 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_3) |
-| 4 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_4) |
+| 1 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr1) |
+| 2 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr2) |
+| 3 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr3) |
+| 4 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr4) |
 | 5 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_5) |
 | 6 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_6) |
 | 7 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_7) |
