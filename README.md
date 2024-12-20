@@ -16,7 +16,7 @@ ___
 | 2 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr2) |
 | 3 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr3) |
 | 4 | [Ссылка на ветку](https://github.com/Ferru5Manus/pr4) |
-| 5 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_5) |
+| 5 | [Ссылка на ветку](https://github.com/Er3shk1gal/PKS/tree/pr5) |
 | 6 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_6) |
 | 7 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_7) |
 | 8 | [Ссылка на ветку](https://github.com/KirichenkoND/PKS5_Template/tree/Practice_8) |
