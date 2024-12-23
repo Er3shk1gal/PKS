@@ -15,7 +15,7 @@ class ShoppingCartPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Корзина',
+          'Cart',
           style: TextStyle(fontFamily: 'Montserrat'),
         ),
       ),

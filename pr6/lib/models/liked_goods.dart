@@ -4,7 +4,7 @@ import 'package:pr6/models/good.dart';
 class LikedGoods extends ChangeNotifier {
   final List<Good> _goods = [];
 
-  List<Good> get goods => List.unmodifiable(_goods);
+  List<Good> get goods => _goods;
 
   void addGood(Good good) {
     final existingGood = _findGood(good.title);

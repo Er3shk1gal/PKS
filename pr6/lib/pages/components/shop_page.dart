@@ -121,7 +121,7 @@ class _ShopPageState extends State<ShopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Feed'),
+        title: const Text('Shop'),
         actions: [
           IconButton(
             icon: const Icon(Icons.add),
