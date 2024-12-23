@@ -6,7 +6,7 @@ class CartService {
   CartService(this._dio);
 
   // Base URL of your API
-  final String baseUrl = 'http://your-api-url'; // Replace with your actual API URL
+  final String baseUrl = 'http://localhost:8080'; // Replace with your actual API URL
 
   // Get all items in the cart for a specific user
   Future<List<Cart>> getCart(int userId) async {

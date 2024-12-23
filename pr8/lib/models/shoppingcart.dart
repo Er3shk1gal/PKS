@@ -14,6 +14,10 @@ class ShoppingCart extends ChangeNotifier {
   ShoppingCart({required this.userId});
   late ProductsService _productsService = ProductsService(Dio());
   late CartService _cartService = CartService(Dio());
+  Future<void> init() async {
+    await loadGoods();
+    await loadCart(userId);
+  }
   Future<void> loadGoods() async
   {
     var products = await _productsService.getProducts();

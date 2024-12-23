@@ -20,7 +20,7 @@ class Product {
       productID: json['product_id'],
       name: json['name'],
       description: json['description'],
-      price: json['price'],
+      price: (json['price'] is int) ? (json['price'] as int).toDouble() : json['price'] as double,
       stock: json['stock'],
       imageURL: json['image_url'],
     );

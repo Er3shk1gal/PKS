@@ -24,6 +24,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
   void _loadFavoritePosts() {
     setState(() {
       favoriteGoods = Provider.of<LikedGoods>(context, listen: false);
+      favoriteGoods.init();
     });
   }
 

@@ -31,6 +31,7 @@ class _ShopPageState extends State<ShopPage> {
 
   void _loadGoods() {
     final goods = Provider.of<Goods>(context, listen: false);
+    goods.loadGoods();
     _loadLiked();
     setState(() {
       this.goods = goods;
@@ -122,7 +123,7 @@ class _ShopPageState extends State<ShopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Feed'),
+        title: const Text('Shop'),
         actions: [
           IconButton(
             icon: const Icon(Icons.add),

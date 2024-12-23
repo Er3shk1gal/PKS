@@ -7,7 +7,7 @@ class FavoritesService {
   FavoritesService(this._dio);
 
 
-  final String baseUrl = 'http://your-api-url';
+  final String baseUrl = 'http://localhost:8080';
 
   Future<List<Favorite>> getFavorites(int userId) async {
     try {

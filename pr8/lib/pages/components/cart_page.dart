@@ -13,10 +13,11 @@ class ShoppingCartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cart = Provider.of<ShoppingCart>(context);
+    cart.init();
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Корзина',
+          'Cart',
           style: TextStyle(fontFamily: 'Montserrat'),
         ),
       ),

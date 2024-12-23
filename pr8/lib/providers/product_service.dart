@@ -7,9 +7,9 @@ class ProductsService {
   ProductsService(this._dio);
 
   // Base URL of your API
-  final String baseUrl = 'http://your-api-url'; // Replace with your actual API URL
+  final String baseUrl = 'http://localhost:8080'; // Replace with your actual API URL
 
-  // Get all products
+
   Future<List<Product>> getProducts() async {
     try {
       final response = await _dio.get('$baseUrl/products');

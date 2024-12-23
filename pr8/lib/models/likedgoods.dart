@@ -14,6 +14,10 @@ class LikedGoods extends ChangeNotifier {
   late FavoritesService _favoritesService = FavoritesService(Dio());
   int userId;
   LikedGoods({required this.userId});
+  Future<void> init() async {
+    await loadGoods();
+    await loadFavorites(userId);
+  }
   Future<void> loadGoods() async
   {
     var products = await _productsService.getProducts();
