@@ -17,7 +17,7 @@ class CreatePostDialog extends StatelessWidget {
     final filePathController = TextEditingController();
 
     return AlertDialog(
-      title: const Text('Create Post'),
+      title: const Text('Create Good'),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
